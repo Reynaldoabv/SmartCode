@@ -1,0 +1,31 @@
+.about-us {
+    background-image: url('./about-us-cover.jpg');
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    opacity: 0.8;
+
+    .title {
+        color: #fff;
+        margin-top: 100px;
+    }
+
+    .parragraph {
+        margin-top: 30px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    button {
+        background-color: #222;
+        color: #fff;
+        border: 3px solid #f45733;
+        border-radius: 0;
+
+        &:hover {
+            background-color: #f45733;
+            color: #fff;
+        }
+    }
+}

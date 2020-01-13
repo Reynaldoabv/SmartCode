@@ -1,0 +1,24 @@
+.footer {
+    .footer-1{
+        height: 100px;
+        background-color: rgb(26, 23, 23);
+
+        span{
+            color: rgb(46, 44, 44);
+            font-size: 30px;
+
+            i{
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .footer-2{
+        height: 70px;
+        background-color: rgb(7, 6, 6);
+        color: rgb(46, 44, 44);
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}

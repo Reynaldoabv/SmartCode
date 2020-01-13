@@ -1,0 +1,27 @@
+.header {
+    height: 80px;
+    position: fixed;
+    background-color: transparent;
+    z-index: 9;
+ 
+    .logo {
+        background-color: #f45733;
+        padding: 10px 20px;
+        color: #222;
+        font-size: 25px;
+        margin-left: 30%;
+        width: 100%;
+
+        small {
+            color: #fff;
+            font-size: 9px;
+            display: flex;
+            margin-left: 15px;
+        }
+    }
+
+    .link {
+        margin-top: 5px;
+    }
+
+}

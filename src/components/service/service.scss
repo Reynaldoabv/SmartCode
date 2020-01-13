@@ -1,0 +1,41 @@
+.service {
+    .card {
+        height: 250px;
+        border: 2px solid #222;
+
+        .card-body {
+            .image {
+                height: 100px;
+                width: 100px;
+            }
+        }
+
+        .card-title {
+            h4 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .right-arrow {
+        position: relative;
+        top: 20px;
+        left: 40%;
+        background-color: #f45733;
+        color: #222;
+        border: 2px solid #222;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+
+        &:hover {
+            background-color: #222;
+            color: #f45733;
+        }
+    
+        .right-arrow-item {
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+}

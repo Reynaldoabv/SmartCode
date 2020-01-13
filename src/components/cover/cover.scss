@@ -1,0 +1,45 @@
+.cover {
+    background-image: url('./cover.jpg');
+    height: 580px;
+    width: 100%;
+    color: #fff;
+
+    h3 {
+        margin-top: 150px;
+    }
+
+    button {
+        background-color: #222;
+        color: #fff;
+        border: 3px solid #f45733;
+        border-radius: 0;
+
+        &:hover {
+            background-color: #f45733;
+            color: #fff;
+        }
+    }
+
+    .down-arrow {
+        position: relative;
+        top: 135px;
+        left: 48%;
+        background-color: #f45733;
+        color: #222;
+        border: 2px solid #222;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+
+        &:hover {
+            background-color: #222;
+            color: #f45733;
+        }
+    
+        .down-arrow-item {
+            padding-left: 6px;
+            font-size: 50px;
+        }
+    }
+}
+
