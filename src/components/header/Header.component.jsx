@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header container-fluid pl-0 pr-0">
             <nav className="row">
                 <div className="col-10 ml-0 mr-0">
-                    <Link className="navbar-brand">
+                    <Link className="navbar-brand" to={"/"}>
                         <div className="logo">
                             <strong> [ </strong>Smart<strong>Code ]</strong>
                             <small className="text-center">HUMAN DIGITAL EXPERIENCES</small>

@@ -1,6 +1,8 @@
 import React from 'react';
 import './service-list.scss';
 
+import { Link } from 'react-router-dom';
+
 import Corporativo from './assets/corporativo.svg';
 import Responsive from './assets/responsive-design.svg';
 import Ecommerce from './assets/e-commerce.svg';
@@ -12,8 +14,8 @@ import WebDevelopment from './assets/web-development.svg';
 
 import Service from '../service/Service.component';
 
-
 const ServiceList = () => {
+
     return (
         <div className="service-list">
             <div className="row mx-auto">
@@ -21,10 +23,14 @@ const ServiceList = () => {
                     <h2 className="text-center mt-5 mb-5">SERVICES</h2>
                 </div>
                 <div className="col-3">
-                    <Service image={Corporativo} title={"CORPORATIVE"} />
+                    <Link to={`services/corporate-websites`} >
+                        <Service image={Corporativo} title={"CORPORATIVE"} />
+                    </Link>
                 </div>
                 <div className="col-3">
-                    <Service image={Responsive} title={"RESPONSIVE"} />
+                    <Link to={`services/responsive`} >
+                        <Service image={Responsive} title={"RESPONSIVE"} />
+                    </Link>
                 </div>
                 <div className="col-3">
                     <Service image={Ecommerce} title={"E-COMMERCE"} />
